@@ -1,0 +1,22 @@
+.categories, .tags {
+  box-shadow: rgba(0, 0, 0, .2) 0 1px 5px 0px;
+}
+
+.categories .ant-card-head {
+  background: #6d8ada;
+  color: #fff;
+}
+
+.tags .ant-card-head {
+  background: #ef3c79;
+  color: #323232;
+}
+
+.save-category {
+  display: flex;
+}
+
+.ant-tag {
+  padding: 7px 14px !important;
+  margin-bottom: 3px;
+}

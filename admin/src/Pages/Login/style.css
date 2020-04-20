@@ -1,0 +1,12 @@
+body {
+  background-color: #f2f2f2;
+}
+
+.login {
+  margin: 100px auto;
+  max-width: 450px;
+}
+
+.login-form-button {
+  width: 100%;   
+}

@@ -1,0 +1,43 @@
+.header {
+  font-size: 12px;
+  .menu {
+    font-size: 28px;
+    line-height: 40px;
+    display: flex;
+    margin-bottom: 15px;
+    .menu-index {
+      color: #4a75b5;
+    }
+    .menu-item {
+      position: relative;
+      line-height: 40px;
+      margin-right: 8px;
+      .arrow-expend {
+        padding-left: 8px;
+        font-size: 20px;
+      }
+      .arrow-expend:hover {
+        color: #4a75b5;
+      }
+    }
+    .active {
+      color: #2F2F2F;
+    }
+    .drop-menu {
+      font-size: 20px;
+      font-weight: 400;
+      position: absolute;
+      width: 120px;
+      background: #fff;
+      border: 1px solid #ccc;
+      left: 36px;
+      text-align: center;
+      padding: 10px 0;
+      list-style: none;
+      z-index: 100;
+      li:hover {
+        background-color: #f3f3f3;
+      }
+    }
+  }
+}
